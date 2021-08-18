@@ -1,0 +1,46 @@
+.card {
+    border: 0 solid;
+    border-top-width: .5rem;
+    border-radius: .8rem;
+    padding: 2rem 3rem;
+    background: $white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    box-shadow: 0 .5rem 1.2rem .1rem $grayish-blue;
+
+    @media (min-width: $break-tablet) {
+        margin: 0;
+    }
+
+    &.card-supervisor {
+        border-color: $cyan;
+    }
+
+    &.card-teamBuilder {
+        border-color: $red;
+    }
+
+    &.card-karma {
+        border-color: $orange;
+    }
+
+    &.card-calculator {
+        border-color: $blue;
+    }
+    
+    .card-heading {
+        color: $dark-blue;
+    }
+
+    .card-info {
+        color: $grayish-blue;
+        font-size: 1.2rem;
+    }
+
+    .card-icon {
+        margin-top: 3rem;
+        width: 6rem;
+        align-self: flex-end;
+    }
+}

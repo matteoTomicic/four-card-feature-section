@@ -1,0 +1,35 @@
+.container {
+    padding: 0 3rem;
+
+    @media (min-width: $break-tablet) {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 100rem;
+        margin: 0 auto;
+    }
+
+    @media (min-width: $break-desktop) {
+        padding: 0;
+    }
+
+    .card-container {
+        @media (min-width: $break-tablet) {
+            width: 31%;
+            //max-width: 33rem;
+        }
+
+        &.double {
+            @media (min-width: $break-tablet) {
+                height: 45rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+
+            @media (min-width: $break-desktop) {
+                height: 44rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+.header-block {
+    margin: 5rem 0;
+    padding: 0 3rem;
+
+    @media (min-width: $break-desktop) {
+        margin: 7rem 0;
+    }
+
+    .main-heading {
+        font-weight: 200;
+        text-align: center;
+        font-size: 2.4rem;
+        color: $dark-blue;
+        margin-bottom: 1rem;
+
+        @media (min-width: $break-desktop) {
+            font-size: 2.8rem;
+        }
+
+        .new-line-heading {
+            font-weight: 600;
+        }
+    }
+
+    .header-note {
+        color: $grayish-blue;
+        text-align: center;
+
+        @media (min-width: $break-tablet) {
+            max-width: 60rem;
+            margin: 0 auto;
+            font-weight: 200;
+        }
+
+        @media (min-width: $break-desktop) {
+            font-size: 1.8rem;
+        }
+    }
+}

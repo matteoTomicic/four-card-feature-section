@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%; // Sets root font size to 10px, cause of easier calculation to rems
+}
+
+body {
+    font-size: 1.5rem; // 15px
+    font-family: $poppins;
+}
